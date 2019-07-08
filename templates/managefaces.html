@@ -59,7 +59,14 @@
 		.material-icons{
 			font-size: 60px;
 		}
-		button{
+		.start{
+			font-size: 30px;
+			color: white;
+			background-color: #000099;
+			padding: 20px;
+			font-family: 'Goudy Bookletter 1911', serif;
+		}
+		.stop{
 			font-size: 30px;
 			color: white;
 			background-color: #000099;
@@ -72,9 +79,16 @@
 		.subject{
 			padding: 30px;
 		}
-		button:hover{
+		.start:hover{
 			background-color: #d9d9d9;
 			color: black;
+		}
+		.stop:hover{
+			background-color: #d9d9d9;
+			color: black;
+		}
+		form{
+			display: inline;
 		}
 		</style>
 </head>
@@ -104,18 +118,20 @@
 	</span> -->
 
 	<span class="info">This Web Service can be used For taking Attendance by using Face Recognition. It will Automatically register the attendance in an excel sheet and that will be sent to the Respective In charge of Class .This Will help the Students to Experience The Power of Technology and It will Embark a new Era of Technology in the School Life.
+		<form  action="POST">
 		<div class="subject">
 			Subject: <input type="text" name="subject"><br>
 			E-mail Id: <input type="E-mail" name="email"><br>
 		</div>	
 
 	<div class="buttons">
-		<button>
-			Start
-		</button>&nbsp&nbsp&nbsp
-		<button>
-			Stop
-		</button>
+		
+		<input class="start" type="submit" name="start" value="Start">
+	</form>
+		&nbsp&nbsp&nbsp
+		<form action="POST">
+		<input class="stop" type="submit" name="stop" value="Stop">
+	</form>
 	</div>
 	</span>
 
