@@ -48,14 +48,33 @@
 			background-color: #000099;
 
 		}
-		.list2{
+		.info{
 			margin-left: 25%;
+			max-width: 600px;
+			font-size: 20px;
 		}
 		.list1{
 			padding-left: 50px;
 		}
 		.material-icons{
 			font-size: 60px;
+		}
+		button{
+			font-size: 30px;
+			color: white;
+			background-color: #000099;
+			padding: 20px;
+			font-family: 'Goudy Bookletter 1911', serif;
+		}
+		.buttons{
+			padding: 30px;
+		}
+		.subject{
+			padding: 30px;
+		}
+		button:hover{
+			background-color: #d9d9d9;
+			color: black;
 		}
 		</style>
 </head>
@@ -75,14 +94,32 @@
 		</ul>
 	</span>
 
-	<span class="list2" >
+	<!-- <span class="list2" >
 		<h4>Anti-theft</h4>
 		<ul>
 			<li><a href="add2">Add Faces</a></li>
 			<li><a href="del2">Delete Faces</a></li>
 			<li><a href="upd2">Update Faces</a></li>
 		</ul>
+	</span> -->
+
+	<span class="info">This Web Service can be used For taking Attendance by using Face Recognition. It will Automatically register the attendance in an excel sheet and that will be sent to the Respective In charge of Class .This Will help the Students to Experience The Power of Technology and It will Embark a new Era of Technology in the School Life.
+		<div class="subject">
+			Subject: <input type="text" name="subject"><br>
+			E-mail Id: <input type="E-mail" name="email"><br>
+		</div>	
+
+	<div class="buttons">
+		<button>
+			Start
+		</button>&nbsp&nbsp&nbsp
+		<button>
+			Stop
+		</button>
+	</div>
 	</span>
+
+ 
 							
 </body>
 </html>
