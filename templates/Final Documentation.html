@@ -1,20 +1,30 @@
 <html>
 <head>
-	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/Documentation_updated.css') }}">
+<link rel="stylesheet" href ="Documentation_updated.css">
 <title>
 Documentation</title>
 </head>
 <body  style="background-color: black">
+
 	<div class="topnav">
-  <a href="home.html">Home</a>
+  <a href="#home">Home</a>
   <a class="active"  href="#about">About</a>
-  <a href="team.html">Contact</a>
+  <a href="#contact">Contact</a>
   <div(1) class="search-container">
     <form action="/action_page.php">
       <input type="text" placeholder="Search.." name="What to find ??">
       
     </form>
   </div(1)>
+  <div(1)  class="Login-container"> <form action="/action_page.php">
+      <button type="submit" style="background-color: red ;margin-left: 20px">Multipurpose Camera</button>
+      <button type="submit" style="margin-left: 70px">Logout</button>
+
+    </form></div(1)>
+    <div id="quoteDisplay"></div>
+    <button onclick="newQuote()">New Quote</button>
+    <script src="javascript.js"></script>
+    
 </div>
 
 <header><h1 align="left">DOCUMENTATION</h1></header>
