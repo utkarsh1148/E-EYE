@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/faceStyle.css') }}">
+	<title>Face Detection</title>
+	<style>
+		img{
+			border-radius: 50%;
+		}
+		img:hover .text{
+			opacity: 0.5;
+
+		}
+	</style>
+</head>
+<body>
+	<div>
+	<a href="signin.html" target="blank"><button id="signin">Sign In</button></a>
+	<a href="signup.html" target="blank"><button id="signup">Sign Up</button></a>
+	</div>
+	<h2 id="heading">E-EYE</h2>
+	<span class="pic">
+		<img id="ramit" src="{{url_for('static', filename='images/ramit.jpg')}}" alt="Ramit Goel" style="width:150px;height:150px;border:0;">
+		
+	</span>
+	&nbsp&nbsp&nbsp
+	<img id="manav" src="{{url_for('static', filename='images/manav.png')}}" alt="Manav Bansal" style="width:150px;height:150px;border:0;">
+
+	&nbsp&nbsp&nbsp
+	<img id="utkarsh" src="{{url_for('static', filename='images/utkarsh.png')}}" alt="Utkarsh Mishra" style="width:150px;height:150px;border:0;">
+	&nbsp&nbsp&nbsp
+	<img id="jayati" src="{{url_for('static', filename='images/jayati.png')}}" alt="Jayati Gumber" style="width:150px;height:150px;border:0;">
+	
+	&nbsp&nbsp&nbsp
+	<img id="prabhav" src="{{url_for('static', filename='images/prabhav.png')}}" alt="Prabhav Bansal" style="width:150px;height:150px;border:0;">
+	
+</body>
+</html>

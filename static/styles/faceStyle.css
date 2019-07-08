@@ -1,0 +1,48 @@
+
+*{
+    font-family:monospace;
+    text-align: center;
+ }
+    
+body{
+	background-image: url("b1.jpg");
+}
+h2{
+	font-size: 120px;
+	color: white;
+	font-weight: bold;
+
+}
+div{
+	padding-left: 1000px;
+}
+#info{
+	color: white;
+	font-size: 30px;
+}
+#info2{
+	color: white;
+	font-size: 20px;
+	/*max-width: 500px;*/
+	align-content: center;
+	text-align: center;
+	width: 500px;
+}
+button{
+	background-color: #c2d6d6;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover{
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	 background-color: white;
+}
+#start{
+	font-size: 24px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp form</title>
+	<style>
+		body{
+			background-image: url("b5.jpg");
+			text-align: center;
+		}
+		h1{
+			font-size: 100px;
+		}
+		form{
+			font-size: 25px;
+			padding-top: 15px;
+ 			padding-right: 15px;
+  			padding-bottom: 15px;
+  			padding-left: 15px;
+		}
+		#submit{
+			font-size: 25px;
+			padding-top: 15px;
+ 			padding-right: 15px;
+  			padding-bottom: 15px;
+  			padding-left: 15px;
+  			background-color: #99cc00;
+		}
+		#submit:hover{
+			background-color: #ccff33;
+		}
+	</style>
+</head>
+<body>
+	<h1>Sign Up form</h1>
+	<form  method="POST" >
+		Username: <input type="text" name="username" required><br>
+		Password: <input type="Password" name="password" required><br>
+		     Email Id: <input type="email" name="email"><br>
+		     Phone No.: <input type="tel" name="phone"><br>
+		      <br>
+
+		     <input id="submit" type="submit" value="Submit" onclick="alert('Successfully Submitted')">
+	</form>
+</body>
+</html>
