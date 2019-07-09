@@ -8,13 +8,13 @@
 	<style>
 		.container {
 			position: relative;
-			width: 50%;
+			width: 25%;
 		}
 
 		.image {
 			opacity: 1;
 			display: block;
-			width: 80%;
+			width: 90%;
 			height: auto;
 			transition: .5s ease;
 			backface-visibility: hidden;
@@ -25,7 +25,7 @@
 			opacity: 0;
 			position: absolute;
 			top: 50%;
-			left: 40%;
+			left: 45%;
 			transform: translate(-50%, -50%);
 			-ms-transform: translate(-50%, -50%);
 			text-align: center;
@@ -65,10 +65,14 @@
 		</div>
 		<div>
 		  <h1>Services Provided:</h1>
-		  <ul>
-				<li class="container"><a href="theft.html"><img src="{{url_for('static', filename='images/AntiTheft.jpg')}}" class="image"><div class="middle"><div class="text">Anti-Theft Surveillance System</div></div></a><a href="http://www.animatedimages.org/cat-running-169.htm"></a></li>
-				<li class="container"><a href="managefaces.html"><img src="{{url_for('static', filename='images/Attendance.jpg')}}" class="image"><div class="middle"><div class="text">Attendance Marker</div></div></a></li>
-			</ul>
+		  	<div class="container" style="float: left;"><a href="theft.html"><img src="{{url_for('static', filename='images/AntiTheft.jpg')}}" class="image"><div class="middle"><div class="text">Anti-Theft Surveillance System</div></div></a><a href="http://www.animatedimages.org/cat-running-169.htm"></a></div>
+				
+				<div class="container" style="float: left;"><a href="managefaces.html"><img src="{{url_for('static', filename='images/Attendance.jpg')}}" class="image"><div class="middle"><div class="text">Attendance Marker</div></div></a></div>
+
+				<div class="container" style="float: left;"><a href="managefaces.html"><img src="{{url_for('static', filename='images/party.jpg')}}" class="image"><div class="middle"><div class="text">Welcome to the Party</div></div></a></div>
+
+				<div class="container" style="float: left;"><a href="managefaces.html"><img src="{{url_for('static', filename='images/door.jpg')}}" class="image"><div class="middle"><div class="text">Knock Knock</div></div></a></div>
+				
 		</div>
 	</div>
 
