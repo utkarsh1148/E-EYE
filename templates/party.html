@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Party
+	</title>
+	<link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<style>
+	
+		body{
+			font-family: 'Goudy Bookletter 1911', serif;
+			background-image: url(o.png);
+		}
+		h1{
+			background-color: #000099;
+			color: white;
+			padding: 50px;
+			padding-bottom: 65PX;
+
+			}
+	
+		h1{
+			font-size: 65px;
+		}
+		h4{
+			font-size: 50px;
+			padding-left: 80px;
+			color: #000099;
+		}
+		span{
+				display: inline-block;
+		}
+		ul{
+			list-style-type: none;
+		}
+		li a{
+			display: block;
+			font-size: 20px;
+			color: black;
+			background-color: #d9d9d9;
+			width: 300px;
+			padding: 20px;
+			text-decoration: none;
+
+		}
+		li a:hover{
+			color: white;
+			background-color: #000099;
+
+		}
+		.info{
+			margin-left: 25%;
+			max-width: 600px;
+			font-size: 20px;
+		}
+		.list1{
+			padding-left: 50px;
+		}
+		.material-icons{
+			font-size: 60px;
+		}
+		.start{
+			font-size: 30px;
+			color: white;
+			background-color: #000099;
+			padding: 20px;
+			font-family: 'Goudy Bookletter 1911', serif;
+		}
+		.stop{
+			font-size: 30px;
+			color: white;
+			background-color: #000099;
+			padding: 20px;
+			font-family: 'Goudy Bookletter 1911', serif;
+		}
+		.buttons{
+			padding: 30px;
+		}
+		.subject{
+			padding: 30px;
+		}
+		.start:hover{
+			background-color: #d9d9d9;
+			color: black;
+		}
+		.stop:hover{
+			background-color: #d9d9d9;
+			color: black;
+		}
+		form{
+			display: inline;
+		}
+		</style>
+</head>
+<body>
+	<h1>Its party time !!
+		<!-- <i class="material-icons">
+    		center_focus_weak
+		</i> -->
+	</h1>
+
+	<span class="list1">
+		<h4>Party Guests</h4>
+		<ul>
+			<li><a href="add1">Add Faces</a></li>
+			<li><a href="del1">Delete Faces</a></li>
+			<li><a href="upd1">Update Faces</a></li>
+			<li><a href="block1">Block Faces</a></li>
+		</ul>
+	</span>
+
+	<!-- <span class="list2" >
+		<h4>Anti-theft</h4>
+		<ul>
+			<li><a href="add2">Add Faces</a></li>
+			<li><a href="del2">Delete Faces</a></li>
+			<li><a href="upd2">Update Faces</a></li>
+		</ul>
+	</span> -->
+
+	<span class="info">Now its time to not let in our enemies into our party ;)
+		So that our great day could not be spoil by them. Choose your guests which you want to be in party and block the bad ones. Our system will let you to allow only the guests you want. We hope this will be your rememberable party.<br><br><br><br>
+		<form  action="POST">
+		<!-- <div class="subject">
+			Subject: <input type="text" name="subject"><br>
+			E-mail Id: <input type="E-mail" name="email"><br>
+		</div>	 -->
+
+	<div class="buttons">
+		
+		<input class="start" type="submit" name="start" value="Party started">
+	</form>
+		&nbsp&nbsp&nbsp
+		<form action="POST">
+		<input class="stop" type="submit" name="stop" value="Party over">
+	</form>
+	</div>
+	</span>
+
+ 
+							
+</body>
+</html>
