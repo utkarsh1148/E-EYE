@@ -6,7 +6,7 @@ This project focuses on attandance and security of your priority Place using Fac
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-1) Go to [website_link](https://www.google.com).
+1) Go to [website_link](https://www.runtimeterroreeye.herokuapp.com).
 
 2) Sign Up/Login To your account.
 
