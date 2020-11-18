@@ -1,6 +1,6 @@
 # E-Eye
 
-This project focuses on attandance and security of your priority Place using Face detection tequnique built using Transfer Learning On Inception Net
+This project focuses on attendance and security of your priority Place using Face detection technique built using Transfer Learning On Inception Net
 
 ## Getting Started 
 
